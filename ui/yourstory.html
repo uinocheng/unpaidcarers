@@ -1,0 +1,54 @@
+<section>
+  <div class="collectdata_home">
+    <img src="/carers/img/data1.png">
+  </div>
+</section>
+
+<p></p>
+<form id="form1" name="form1" method="post" action="{{ @BASE }}/yourstory">
+  My name is:
+  <input name="name" type="text" placeholder="Enter name" id="name" size="50" />
+
+<p>I am
+  <select name="age" id="age">
+    <option value="16-30">16-30</option>
+    <option value="31-45">31-45</option>
+    <option value="46-60">46-60</option>
+    <option value="61">61+</option>
+  </select>
+  years old.
+</p>
+<p>I currently live in:
+  <select name="region" id="region">
+    <option value="England">England</option>
+    <option value="Wales" >Wales</option>
+    <option value="Scotland">Scotland</option>
+    <option value="Outer Space" selected="selected">Outer Space</option>
+  </select>
+</p>
+<p>I spend around
+  <select name="hours" id="hours">
+    <option value="1-19">1-19</option>
+    <option value="20-34" selected="selected" >20-34</option>
+    <option value="35-49">35-49</option>
+    <option value="50">50+</option>
+  </select>
+  hours a week to be a carer.
+</p>
+  <p>My Story:
+    <input name="message" type="text" placeholder="My Story" id="message" size="50" />
+  </p>
+<p>
+  <input id="postdate" type="text" value="<?PHP echo date(); ?>" >
+
+</p>
+<p>
+  <a class="btn btn-xl btn-dark"></a>
+    <input type="submit" name="Submit" value="Submit"  />
+</p>
+
+</form>
+
+<p>
+ <!-- <a href="{{ @BASE }}/about">Read about this example</a> -->
+</p>

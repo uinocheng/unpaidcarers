@@ -1,0 +1,21 @@
+<table border='1'>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Region</th>
+        <th>Hours</th>
+        <th>Message</th>
+        <th>Post Date</th>
+    </tr>
+
+    <repeat group="{{ @userTable }}" value="{{ @record }}">
+        <tr>
+            <td>{{ @record.name}}</td>
+            <td>{{ @record.age}}</td>
+            <td>{{ @record.region}}</td>
+            <td>{{ @record.hours}}</td>
+            <td>{{ @record.message}}</td>
+            <td>{{ @record.postdate}}</td>
+        </tr>
+    </repeat>
+</table>

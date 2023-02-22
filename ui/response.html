@@ -1,0 +1,16 @@
+<!-- 
+A very simple response View template:
+just echoes what the input data were.
+ -->
+
+<section>
+    <div class="response">
+        <h1>Thanks for your story, {{ @formData.name }} ...</h1>
+        <img src="/carers/img/Thanks_page.png" alt="Thanks_page image">
+        <!--<p> Your gender is {{ @formData.age }} </p>-->
+        <hr />
+        <a class="btn btn-xl btn-dark" href="{{ @BASE }}/dataview">Go to Dashboard!</a>
+    </div>
+</section>
+
+
