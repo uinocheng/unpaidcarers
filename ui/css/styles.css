@@ -601,6 +601,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  animation: wiggle 2s linear infinite;
 }
 
 .img-thumbnail {
@@ -11421,7 +11422,7 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11570,3 +11571,20 @@ footer.footer .social-link:hover {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
+
+.bg-mainsurvey {
+  padding: 15rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-mainsurvey.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-dataview {
+  padding: 15rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-dataview.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

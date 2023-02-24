@@ -158,8 +158,21 @@
                 <h2 class="mb-4">Data View</h2>
 
                 <a class="btn btn-xl btn-dark" href="{{ @BASE }}/dataview">Go to Dashboard!</a>
+                <p></p>
+
+                <!-- Social Icons-->
+                <!-- For more icon options, visit https://fontawesome.com/icons?d=gallery&p=2&s=brands-->
+                <div class="social-icons"><h2>Share our page</h2>
+                    <a class="btn btn-dark m-3" href="mailto:?subject=I%20would%20like%20to%20share%20Unpaid%20Carers%20Garden%20with%20you&body=I%20have%20found%20this%20website%20and%20thought%20you%20might%20be%20interested.%0D%0A%0D%0ACheck%20it%20out%20by%20clicking%20https%3A%2F%2Fs2546702.edinburgh.domains%2Funpaidcarers%2F" onclick="sendSimpleGAEvent('Share this', 'Click', 'Email');">
+                        <i class="fa-solid fa-envelope"></i></a>
+                    <a class="btn btn-dark m-3" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fs2546702.edinburgh.domains%2Funpaidcarers%2F" onclick="sendSimpleGAEvent('Share this', 'Click', 'Facebook'); window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fs2546702.edinburgh.domains%2Funpaidcarers%2F','_blank'); return false;">
+                        <i class="fab fa-facebook-f"></i></a>
+                    <!--<a class="btn btn-dark m-3" href="#!"><i class="fab fa-instagram"></i></a>-->
+                </div>
             </div>
         </section>
+
+
         <!-- Map-->
         <!--<div class="map" id="contact">
             <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
